@@ -1,0 +1,173 @@
+﻿Welcome
+
+The goal of this training is to share what is git and how to use it.
+---------------------------
+what is git?
+
+git is a software which is use to track files changes and let several team members to work on the same project.
+----------------------------
+Step #1
+----------------------------
+Now download and install git from the following link. Don't change any settings while installing.
+
+https://git-scm.com/downloads
+-----------------------------
+Step #2
+----------------------------
+Open an account(if you don't have already) in the github by the following link and give me the github username via facebook messenger.
+
+https://github.com/
+
+-----------------------------
+Step #3
+----------------------------
+
+After installation of git do the following
+
+1. Right click anywhere on the desktop(desktop is what you see when all programs are closed or minimized).
+2. From the menu click on "git bash"
+3. You will see a console.
+------------------------------
+Step #4
+------------------------------
+Type the following commands in the git console and press enter for each commands.
+
+Change the text in quotation accordingly.
+
+1. git config --global user.name "Put your Name Here"
+(press enter)
+2. git config --global user.email "Put your Email Here"
+(press enter)
+
+Explanation:
+This is just an initial configuration. It is done only once after git installation.
+-------------------------------
+Step #5
+-------------------------------
+
+1. Now minimize the console
+2. Go to browser and open github tab
+3. In the github page look top right corner. You should see a notification icon(the bell icon)
+4. Click on it. You should see an invitation.
+5. If you don't see any invitation check email
+6. When you get the inviation you should see accept invitation option. click on it.
+
+Explanation:
+You will often join a project that is already started. Project manager will invite you to join the project(also called repository) for collaboration.
+This is how you will be invited to work for all future projects(also called repositories).
+----------------------------
+Step #6
+----------------------------
+1. After accepting the invitation you should see a repository name "git-practice"
+2. You should also see a link under "quick setup". It should be something like
+https://github.com/mhsn06/git-practice.git
+3. Go to console.
+4. Type the following command and press enter
+git clone put_the_link_here
+Example
+git clone https://github.com/mhsn06/git-practice.git
+(press enter)
+5. You should see some message
+
+
+Explanation:
+To contribute to any project you will first download the project files on your pc. In git language we call this cloning a git repository.
+-------------------------------
+Step #6
+----------------------------
+After cloning is done. Type the following in console and press enter.
+1. cd git-practice
+(press enter)
+For the next commands fill in the blank with any name without space.
+2. git branch _____________
+Example:
+git branch hello2134
+(press enter)
+3. git checkout _____________
+Example:
+git checkout hello2134
+(press enter)
+
+Now minimize the console
+
+
+Explanation:
+Before we make any changes to the project we make a copy of all the project files so that if anything goes wrong the original project will not be affected. We make all our changes in the copied files.
+
+In git's language we call this branching. By "git branch your_branch_name" you created a copy of the project. Then by "git checkout your_branch_name" you move to the copied project.
+-------------------------------
+Step #7
+----------------------------
+Take a look at the desktop. You should see a folder named "git-practice".
+
+1. Open the "git-practice" folder
+2. add a new text file
+3. write something and save
+
+Explanation:
+Now we make changes as we need. For demonestration purpose we just added a simple text file.
+-------------------------------
+Step #8
+----------------------------
+
+Open the git console again and type following and press enter
+1. git status
+(press enter)
+[you should see something red]
+2. git add .
+(press enter)
+3. git commit -m 'my first commit'
+(press enter)
+
+Explanation:
+In this step we tell the git to track all changes that we made in previous step. By "git status" you can see which files or folders have been changed. By "git add ." you tell git to track all changes. And finally by "git commit" you tell git to store a short description of what you did.
+
+You will do this everytime you make any change.
+-----------------------------
+Step #8
+----------------------------
+After your work is done and all changes is track by previous step type the following command and press enter. In blank put your branch name that you made in step 6.
+
+1. git push origin _____________
+Example:
+git push origin hello2134
+(press enter)
+[In this step you may need to put github username and password and login]
+
+Explanation:
+All the changes you made and track so far is in your pc. The project manager and others team members can't see the changes from your pc. So you push the changes to server. By doing so other members now can see the changes and also project manager can review the changes.
+----------------------------
+Step #9
+----------------------------
+When you first push from a new branch you will see a link in the console under "pull request".
+
+1. Open the link in the browser
+2. You should see a green button create pull requests.
+
+
+Explanation:
+By pull requests you are requesting the project manager to merge the changes to the original project. Project manager will review your changes and merged. Sometimes project manager will provide comment for further changes. In that case you will just you just perform step #6, step #7 and step #8. You don't have to do this step.
+
+When project manager merge your changes to the original project your task is complete.
+----------------------------
+Step #10
+----------------------------
+After merging your task type the following in the git console and press enter.
+
+1. git checkout master
+2. git branch -d _____________
+Example
+git branch -d hello2134
+(press enter)
+
+Explanation:
+As your changes are merged with the original project you don't need the copied project files anymore. So you move back to original project files by "git checkout master" command and delete the copied project by "git branch -d" command.
+
+-------------------------------
+Step #11
+-------------------------------
+Explanation:
+Whenever you will get a new task you will perform step 7# to step #10.
+
+---------------------------------------------------------------
+Congratulation. Your training to use git is complete.
