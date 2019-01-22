@@ -73,7 +73,7 @@ git clone https://github.com/mhsn06/git-practice.git
 Explanation:
 To contribute to any project you will first download the project files on your pc. In git language we call this cloning a git repository.
 -------------------------------
-Step #6
+Step #7
 ----------------------------
 After cloning is done. Type the following in console and press enter.
 1. cd git-practice
@@ -96,7 +96,7 @@ Before we make any changes to the project we make a copy of all the project file
 
 In git's language we call this branching. By "git branch your_branch_name" you created a copy of the project. Then by "git checkout your_branch_name" you move to the copied project.
 -------------------------------
-Step #7
+Step #8
 ----------------------------
 Take a look at the desktop. You should see a folder named "git-practice".
 
@@ -107,7 +107,7 @@ Take a look at the desktop. You should see a folder named "git-practice".
 Explanation:
 Now we make changes as we need. For demonestration purpose we just added a simple text file.
 -------------------------------
-Step #8
+Step #9
 ----------------------------
 
 Open the git console again and type following and press enter
@@ -124,7 +124,7 @@ In this step we tell the git to track all changes that we made in previous step.
 
 You will do this everytime you make any change.
 -----------------------------
-Step #8
+Step #10
 ----------------------------
 After your work is done and all changes is track by previous step type the following command and press enter. In blank put your branch name that you made in step 6.
 
@@ -137,7 +137,7 @@ git push origin hello2134
 Explanation:
 All the changes you made and track so far is in your pc. The project manager and others team members can't see the changes from your pc. So you push the changes to server. By doing so other members now can see the changes and also project manager can review the changes.
 ----------------------------
-Step #9
+Step #11
 ----------------------------
 When you first push from a new branch you will see a link in the console under "pull request".
 
@@ -164,7 +164,7 @@ Explanation:
 As your changes are merged with the original project you don't need the copied project files anymore. So you move back to original project files by "git checkout master" command and delete the copied project by "git branch -d" command.
 
 -------------------------------
-Step #11
+Step #12
 -------------------------------
 Explanation:
 Whenever you will get a new task you will perform step 7# to step #10.
