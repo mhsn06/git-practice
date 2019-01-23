@@ -1,0 +1,11 @@
+Natural language is not enough for explaining technical matters. It requires lot of words to explain simple requirements.
+
+That's why we use various structured way such as a flowchart to communicate. They are called models. We use various models for various situation.
+
+The simpliest model is the use case model which describe a project requirement from user usage perspective.
+
+So your starting point will be reading a file with use case model of a project. Then start contributing to the project accordingly.
+
+all communication will be written document based.
+
+That's it for now.
