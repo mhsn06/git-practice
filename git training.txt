@@ -166,7 +166,12 @@ As your changes are merged with the original project you don't need the copied p
 -------------------------------
 Step #12
 -------------------------------
+1. git pull origin master
+2. git log
+(press q)
 Explanation:
+It will update the local repository by downloading all changes made by you and others from the remote repository.
+
 Whenever you will get a new task you will perform step 7# to step #10.
 
 ---------------------------------------------------------------
