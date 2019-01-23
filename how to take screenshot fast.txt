@@ -11,7 +11,7 @@ There is a button named "print screen" or "prnt scrn" or "prt sc" in the keybora
 
 [In laptop keyborad you may need to press fn button with print screen button.]
 
-Just press that and in facebook messenger press control + V.
+Just press that and press control + V in facebook messenger or in paint or anywhere you want the screenshot.
 
 You should see the screenshot in the messenger.
 
