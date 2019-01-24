@@ -150,7 +150,7 @@ By pull requests you are requesting the project manager to merge the changes to 
 
 When project manager merge your changes to the original project your task is complete.
 ----------------------------
-Step #10
+Step #12
 ----------------------------
 After merging your task type the following in the git console and press enter.
 
@@ -164,7 +164,7 @@ Explanation:
 As your changes are merged with the original project you don't need the copied project files anymore. So you move back to original project files by "git checkout master" command and delete the copied project by "git branch -d" command.
 
 -------------------------------
-Step #12
+Step #13
 -------------------------------
 1. git pull origin master
 2. git log
