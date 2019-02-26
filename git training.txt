@@ -38,6 +38,10 @@ Change the text in quotation accordingly.
 (press enter)
 2. git config --global user.email "Put your Email Here"
 (press enter)
+3. git config --global -l
+(press enter)
+
+4. send me screenshot of the console 
 
 Explanation:
 This is just an initial configuration. It is done only once after git installation.
@@ -46,7 +50,7 @@ Step #5
 -------------------------------
 
 1. Now minimize the console
-2. Go to browser and open github tab
+2. Go to browser and open github.com tab
 3. In the github page look top right corner. You should see a notification icon(the bell icon)
 4. Click on it. You should see an invitation.
 5. If you don't see any invitation check email
@@ -59,13 +63,15 @@ This is how you will be invited to work for all future projects(also called repo
 Step #6
 ----------------------------
 1. After accepting the invitation you should see a repository name "git-practice"
-2. You should also see a link under "quick setup". It should be something like
+2. Click on green "Clone or download" button. You should see a link something like
 https://github.com/mhsn06/git-practice.git
-3. Go to console.
-4. Type the following command and press enter
+3. Copy the link
+4. Go to console.
+5. Type the following command and press enter
 git clone put_the_link_here
 Example
 git clone https://github.com/mhsn06/git-practice.git
+[** send me screenshot of the console before pressing enter]
 (press enter)
 5. You should see some message
 
@@ -101,8 +107,8 @@ Step #8
 Take a look at the desktop. You should see a folder named "git-practice".
 
 1. Open the "git-practice" folder
-2. add a new text file
-3. write something and save
+2. add a new text file in the "trainees" folder
+3. write about yourself like the other files and save
 
 Explanation:
 Now we make changes as we need. For demonestration purpose we just added a simple text file.
