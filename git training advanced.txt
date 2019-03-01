@@ -20,7 +20,7 @@ Details of the pull request will be shown.
 
 Click on the "Commits". You will see commit messages. From the messages you will get an idea from the requester about what has done.
 
-Click on the "Files Changed". Here you will see the files that has been changed. Check carefully if the changes satisfy your provided task requirment.
+Bla bla bla 
 
 Click on the "Conversation". If you are not satisfied with the change you can provide comment here. And if you are satisfied scroll down.
 
@@ -29,7 +29,7 @@ Click on the "Merge pull request" button.
 
 Add a commit message about what you are merging. Then click on confirm merge.
 
-
+bla bla bla
 
 
 Inviting new member to repository.
