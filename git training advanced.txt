@@ -28,3 +28,8 @@ Click on the "Conversation". If you are not satisfied with the change you can pr
 Click on the "Merge pull request" button.
 
 Add a commit message about what you are merging. Then click on confirm merge.
+
+
+
+
+Inviting new member to repository.
