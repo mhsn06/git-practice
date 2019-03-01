@@ -1,0 +1,35 @@
+Welcome back to git training.
+
+This script provides advance git training useful for Leading a team.
+
+By this time you should know how a member make pull request and what happend after pull request is merged.
+
+This document will describe how to review pull request and do the merge.
+
+For reviewing and merging a pull request you should have the necessary permission. I give you the permission.
+
+Go to repositoy page.
+
+Click on the "Pull requests" option.
+
+You will see a list of pull requests if somebody made it.
+
+Click one of the pull request.
+
+Details of the pull request will be shown.
+
+Click on the "Commits". You will see commit messages. From the messages you will get an idea from the requester about what has done.
+
+Click on the "Files Changed". Here you will see the files that has been changed. Check carefully if the changes satisfy your provided task requirment.
+
+Click on the "Conversation". If you are not satisfied with the change you can provide comment here. And if you are satisfied scroll down.
+
+
+Click on the "Merge pull request" button.
+
+Add a commit message about what you are merging. Then click on confirm merge.
+
+
+
+
+Inviting new member to repository.
